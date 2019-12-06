@@ -17,7 +17,7 @@ import {element} from 'protractor';
 
 export class FeedbackDialogComponent implements AfterViewInit {
   public showToolbar = false;
-  public vars: object = {};
+  public vars: any = {};
   public feedback = new Feedback();
   public includeScreenshot: boolean = true;
   public showSpinner = true;
